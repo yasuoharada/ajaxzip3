@@ -204,7 +204,7 @@ AjaxZip3.getElementByName = function ( elem, sibling ) {
 }
 
 AjaxZip3.zipjsonpquery = function(){
-    var url = AjaxZip2.JSONDATA+'/zip-'+zip3+'.js';
+    var url = AjaxZip3.JSONDATA+'/zip-'+zip3+'.js';
     var scriptTag = document.createElement("script");
     scriptTag.setAttribute("type", "text/javascript");
     scriptTag.setAttribute("src", url);
