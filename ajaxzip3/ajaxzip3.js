@@ -2,7 +2,7 @@
     ajaxzip3.js ---- AjaxZip3 郵便番号→住所変換ライブラリ
 
     Copyright (c) 2008 Ninkigumi Co.,Ltd.
-    http://www.kawa.net/works/ajax/AjaxZip3/AjaxZip3.html
+    http://code.google.com/p/ajaxzip3/
 
     Copyright (c) 2006-2007 Kawasaki Yusuke <u-suke [at] kawa.net>
     http://www.kawa.net/works/ajax/AjaxZip3/AjaxZip3.html
@@ -31,7 +31,7 @@
 
 AjaxZip3 = function(){};
 AjaxZip3.VERSION = '0.4';
-AjaxZip3.JSONDATA = 'http://ajaxzip3.googlecode.com/svn/trunk/ajaxzip3/data';
+AjaxZip3.JSONDATA = 'http://ajaxzip3.googlecode.com/svn/trunk/ajaxzip3/zipdata';
 AjaxZip3.CACHE = [];
 AjaxZip3.prev = '';
 AjaxZip3.nzip = '';
