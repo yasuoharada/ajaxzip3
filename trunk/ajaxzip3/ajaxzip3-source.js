@@ -5,7 +5,7 @@
     http://code.google.com/p/ajaxzip3/
 
     Copyright (c) 2006-2007 Kawasaki Yusuke <u-suke [at] kawa.net>
-    http://www.kawa.net/works/ajax/AjaxZip3/AjaxZip3.html
+    http://www.kawa.net/works/ajax/AjaxZip2/AjaxZip2.html
 
     Permission is hereby granted, free of charge, to any person
     obtaining a copy of this software and associated documentation
