@@ -156,7 +156,7 @@ AjaxZip3.callback = function(data){
         AjaxZip3.faddr.value = jaddr;
 
         // patch from http://iwa-ya.sakura.ne.jp/blog/2006/10/20/050037
-        // update http://www.kawa.net/works/ajax/AjaxZip3/AjaxZip3.html#com-2006-12-15T04:41:22Z
+        // update http://www.kawa.net/works/ajax/AjaxZip2/AjaxZip2.html#com-2006-12-15T04:41:22Z
         if ( ! cursor ) return;
         if ( ! cursor.value ) return;
         var len = cursor.value.length;
@@ -208,6 +208,7 @@ AjaxZip3.zipjsonpquery = function(){
     var scriptTag = document.createElement("script");
     scriptTag.setAttribute("type", "text/javascript");
     scriptTag.setAttribute("src", url);
+    scriptTag.setAttribute("charset", "UTF-8");
     document.getElementsByTagName("head").item(0).appendChild(scriptTag);
    };
 
