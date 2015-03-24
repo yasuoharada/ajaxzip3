@@ -207,8 +207,8 @@ AjaxZip3.zipjsonpquery = function(){
     var url = AjaxZip3.JSONDATA+'/zip-'+AjaxZip3.nzip.substr(0,3)+'.js';
     var scriptTag = document.createElement("script");
     scriptTag.setAttribute("type", "text/javascript");
-    scriptTag.setAttribute("src", url);
     scriptTag.setAttribute("charset", "UTF-8");
+    scriptTag.setAttribute("src", url);
     document.getElementsByTagName("head").item(0).appendChild(scriptTag);
    };
 
