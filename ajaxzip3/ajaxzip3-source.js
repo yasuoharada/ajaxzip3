@@ -54,7 +54,7 @@ AjaxZip3.PREFMAP = [
     '福岡県',   '佐賀県',   '長崎県',   '熊本県',   '大分県',
     '宮崎県',   '鹿児島県', '沖縄県'
 ];
-AjaxZip3.zip2addr = function ( azip1, azip2, apref, aaddr, astrt, aarea ) {
+AjaxZip3.zip2addr = function ( azip1, azip2, apref, aaddr, aarea, astrt ) {
     AjaxZip3.fzip1 = AjaxZip3.getElementByName(azip1);
     AjaxZip3.fzip2 = AjaxZip3.getElementByName(azip2,AjaxZip3.fzip1);
     AjaxZip3.fpref = AjaxZip3.getElementByName(apref,AjaxZip3.fzip1);
