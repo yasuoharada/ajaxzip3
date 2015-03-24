@@ -1,7 +1,7 @@
 /* ================================================================ *
     ajaxzip3.js ---- AjaxZip3 郵便番号→住所変換ライブラリ
 
-    Copyright (c) 2008 Ninkigumi Co.,Ltd.
+    Copyright (c) 2008-2015 Ninkigumi Co.,Ltd.
     http://code.google.com/p/ajaxzip3/
 
     Copyright (c) 2006-2007 Kawasaki Yusuke <u-suke [at] kawa.net>
